@@ -7,13 +7,14 @@ class Youtube {
     this.youtube = httpClient;
   }
 
-  async mostPopular() {
+  async mostPopular(num) {
     const reponse = await this.youtube.get('videos', {
       params: {
         part: 'snippet',
         chart: 'mostPopular',
         maxResults: 30,
         regionCode: 'kr',
+        videoCategoryId: num,
       },
     });
     return reponse.data.items;

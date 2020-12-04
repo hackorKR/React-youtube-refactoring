@@ -1,0 +1,20 @@
+.categorys {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.category_button {
+  font-size: 1.2rem;
+  margin: 0.5rem 2rem;
+  border: 1px solid gray;
+  background-color: rgba(0, 0, 0, 0);
+  color: gray;
+  border-radius: 5px;
+}
+
+.category_button:hover {
+  color: white;
+  background-color: gray;
+  transform: scale(1.02);
+}

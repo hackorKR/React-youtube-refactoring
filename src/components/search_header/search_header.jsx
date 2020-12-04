@@ -17,10 +17,15 @@ const SearchHeader = memo(({ onSearch }) => {
       handleSearch();
     }
   };
+
+  const logoClick = () => {
+    window.location.href = window.location.href;
+  };
+
   console.log('Header!!');
   return (
     <header className={styles.header}>
-      <div className={styles.logo}>
+      <div className={styles.logo} onClick={logoClick}>
         <img
           className={styles.img}
           src={process.env.PUBLIC_URL + '/images/logo.png'}
