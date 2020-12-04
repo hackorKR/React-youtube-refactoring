@@ -31,9 +31,10 @@
 @media screen and (max-width: 780px) {
   .header {
     width: 100vw;
+    position: fixed;
   }
   .input {
-    width: 300px;
+    width: 5rem;
     height: 2.5rem;
   }
   .logo {

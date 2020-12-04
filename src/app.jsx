@@ -12,6 +12,7 @@ function App({ youtube }) {
 
   const selectVideo = (video) => {
     setSelectedVideo(video);
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
   };
   const search = useCallback(
     (query) => {
