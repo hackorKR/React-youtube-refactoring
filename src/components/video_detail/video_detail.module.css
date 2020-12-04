@@ -6,7 +6,7 @@
   white-space: pre-wrap;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 780px) {
   .detail {
     width: 100vw;
     display: flex;

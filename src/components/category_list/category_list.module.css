@@ -19,7 +19,7 @@
   transform: scale(1.02);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 780px) {
   .categorys {
     width: 100vw;
     display: flex;
