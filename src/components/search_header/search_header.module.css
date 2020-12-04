@@ -33,9 +33,14 @@
     width: 100vw;
   }
   .input {
-    width: 20vw;
+    width: 300px;
+    height: 2.5rem;
   }
   .logo {
     font-size: 0.7rem;
+  }
+  .button {
+    width: 2.5rem;
+    height: 2.5rem;
   }
 }
