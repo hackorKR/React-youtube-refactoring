@@ -40,3 +40,9 @@
 .channel {
   font-size: 0.6rem;
 }
+
+@media screen and (max-width: 400px) {
+  .container.grid {
+    width: 100%;
+  }
+}

@@ -18,3 +18,14 @@
   background-color: gray;
   transform: scale(1.02);
 }
+
+@media screen and (max-width: 400px) {
+  .categorys {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+  }
+  .category_button {
+    margin: 0.2rem;
+  }
+}
