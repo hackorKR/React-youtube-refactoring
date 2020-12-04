@@ -28,9 +28,9 @@
   padding: 0.5em 0.2em;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .header {
-    width: 400px;
+    width: 100vw;
   }
   .input {
     width: 20vw;

@@ -6,9 +6,9 @@
   white-space: pre-wrap;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .detail {
-    width: 400px;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,6 +16,6 @@
   .video {
     margin: auto;
     width: 100vw;
-    height: 40vh;
+    height: 65vw;
   }
 }
