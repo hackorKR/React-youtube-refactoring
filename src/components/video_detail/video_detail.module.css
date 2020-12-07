@@ -6,6 +6,9 @@
   white-space: pre-wrap;
 }
 
+.viewCount {
+  color: #606060;
+}
 @media screen and (max-width: 780px) {
   .detail {
     width: 100vw;

@@ -19,7 +19,9 @@ const VideoItem = memo(
           <div className={styles.metadata}>
             <p className={styles.title}>{snippet.title}</p>
             <p className={styles.channel}>{snippet.channelTitle}</p>
-            <p className={styles.channel}>{snippet.publishedAt}</p>
+            <p className={styles.channel}>
+              조회수 {video.statistics.viewCount}회
+            </p>
           </div>
         </div>
       </li>

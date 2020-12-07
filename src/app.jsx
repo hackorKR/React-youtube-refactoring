@@ -29,6 +29,7 @@ function App({ youtube }) {
     setCategory_num(num);
     setSelectedVideo(null);
   };
+
   //Component Update 때 실행됨
   useEffect(() => {
     youtube
