@@ -28,7 +28,9 @@ const VideoDetail = ({ video, video: { snippet } }) => {
         allowFullScreen
       ></iframe>
       <h2>{snippet.title}</h2>
-      <h3 className={styles.viewCount}>조회수 {viewCount}회</h3>
+      {video.statistics && (
+        <h3 className={styles.viewCount}>조회수 {viewCount}회</h3>
+      )}
       <h3>{snippet.channelTitle}</h3>
       <pre className={styles.description}>{snippet.description}</pre>
     </section>
