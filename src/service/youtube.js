@@ -15,7 +15,7 @@ class Youtube {
       params: {
         part: parts,
         chart: 'mostPopular',
-        maxResults: 30,
+        maxResults: 32,
         regionCode: 'kr',
         videoCategoryId: num,
       },
@@ -27,7 +27,7 @@ class Youtube {
     const reponse = await this.youtube.get('search', {
       params: {
         part: 'snippet',
-        maxResults: 30,
+        maxResults: 32,
         regionCode: 'kr',
         type: 'video',
         q: query,

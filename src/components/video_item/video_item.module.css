@@ -16,7 +16,6 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   cursor: pointer;
   transition: transform 250ms ease-in;
 }
